@@ -4,7 +4,7 @@ from models import WialonAPI
 app = Flask(__name__)
 
 # Replace with your actual Wialon token
-WIALON_TOKEN = "631332c3397a858d6bd9ab6949009d84693F00788581CE7D4E51FDC2C46AF8D007F20610"
+WIALON_TOKEN = ""
 wialon_api = WialonAPI(WIALON_TOKEN)
 
 @app.route('/')
