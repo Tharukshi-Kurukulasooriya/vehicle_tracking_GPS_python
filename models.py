@@ -5,7 +5,8 @@ class WialonAPI:
     def __init__(self, token):
         self.token = token
         self.sid = None
-        self.api_url = "https://hst-api.wialon.com/wialon/ajax.html"
+        # Replace with your actual api url
+        self.api_url = ""
 
     def login(self):
         """Authenticates with Wialon and gets a session ID."""
